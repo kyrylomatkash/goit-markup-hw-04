@@ -324,8 +324,14 @@ img {
 .footer-social-title {
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
   color: #ffffff;
   margin-bottom: 16px;
+}
+.footer-social-list{
+  display: flex;
+  gap: 16px;
 }
 .footer-social-item {
   width: 40px;
