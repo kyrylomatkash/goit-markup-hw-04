@@ -312,7 +312,9 @@ img {
 .team-social-link:hover,.team-social-link:focus{
   background-color: #404bbf;
 }
-
+.team-social-logo{
+  fill: var(--light-text)
+}
 .customers-section{
   padding-top: 120px; 
   padding-bottom: 120px;
