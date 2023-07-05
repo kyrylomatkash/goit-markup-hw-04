@@ -119,9 +119,7 @@ img {
   display: flex;
   gap: 40px;
 }
-.address-item {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .address-link {
   font-size: 16px;
   line-height: 1.5;
@@ -129,6 +127,7 @@ img {
   color: var(--primarybody-color);
   font-style: normal;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover {
