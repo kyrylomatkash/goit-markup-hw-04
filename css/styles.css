@@ -97,9 +97,6 @@ img {
 .header-nav-link:focus {
   color: var(--pressedstate-color);
 }
-.header-nav-link.active {
-  color: #404bbf;
-}
 .header-nav-link.active::after {
   content: "";
   width: 100%;
@@ -138,7 +135,7 @@ img {
 }
 
 /* hero section  */
-.hero-div{
+.hero-div {
 }
 .hero {
   background-color: var(--primarydark-color);
@@ -508,8 +505,7 @@ img {
   letter-spacing: 0.04em;
   color: var(--primarybrand-color);
   background-color: var(--light-text);
-  padding: 12px 24px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
