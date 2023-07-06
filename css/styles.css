@@ -97,6 +97,9 @@ img {
 .header-nav-link:focus {
   color: var(--pressedstate-color);
 }
+.active{
+  color: #404bbf;
+}
 .header-nav-link.active::after {
   content: "";
   width: 100%;
@@ -135,8 +138,6 @@ img {
 }
 
 /* hero section  */
-.hero-div {
-}
 .hero {
   background-color: var(--primarydark-color);
   padding-top: 188px;
@@ -390,6 +391,9 @@ img {
 .footer-social-list {
   display: flex;
   gap: 16px;
+}
+.footer-social-logo{
+  fill: #f4f4fd;
 }
 .footer-social-item {
   width: 40px;
