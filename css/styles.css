@@ -366,9 +366,11 @@ img {
 .customers-logo {
   width: 104px;
   height: 56px;
+  fill: currentColor;
 }
 .customers-logo:hover,
 .customers-logo:focus {
+  color: var(--pressedstate-color);
 }
 
 /* footer section */
