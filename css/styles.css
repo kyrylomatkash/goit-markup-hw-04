@@ -571,8 +571,8 @@ img {
   padding: 32px 16px;
   border: 1px solid var(--accent-color);
   border-top: none;
-  width: calc ((100% - 48px) / 3);
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
